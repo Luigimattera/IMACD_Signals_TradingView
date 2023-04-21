@@ -1,4 +1,4 @@
-#Impulse MACD Trading Signals
+##Impulse MACD Trading Signals
 This repository contains a trading strategy based on the Impulse MACD indicator, implemented in Pine Script for the TradingView platform. The strategy generates signals for buying and selling financial assets based on the crossover and crossunder of the Impulse MACD histogram and a far-from-zero band.
 
 The strategy was inspired by the work of the author LazyBear and was adapted to include custom parameters such as the length of the moving averages and the far-from-zero band, which can be adjusted according to the user's preferences.
