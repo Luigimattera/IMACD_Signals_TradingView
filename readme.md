@@ -1,10 +1,17 @@
-##Impulse MACD Trading Signals
-This repository contains a trading strategy based on the Impulse MACD indicator, implemented in Pine Script for the TradingView platform. The strategy generates signals for buying and selling financial assets based on the crossover and crossunder of the Impulse MACD histogram and a far-from-zero band.
+Impulse MACD [LazyBear]
+This is a trading strategy based on the Impulse MACD indicator developed by LazyBear. The strategy is coded in Pine Script and can be used in the TradingView platform.
 
-The strategy was inspired by the work of the author LazyBear and was adapted to include custom parameters such as the length of the moving averages and the far-from-zero band, which can be adjusted according to the user's preferences.
+Strategy Description
+The strategy is a trend-following system that uses a combination of moving averages and the Impulse MACD indicator to identify entry and exit points. The Impulse MACD indicator is a variation of the traditional MACD that highlights momentum shifts in the market.
 
-To use the strategy, simply copy the code from the imacd_strategy.txt file and paste it into the Pine Script editor in TradingView. Then, customize the parameters as desired and save the script. Finally, add the script to a chart of a financial asset and start receiving trading signals.
+The strategy uses the following parameters:
 
-Please note that this strategy is provided for educational purposes only and does not constitute financial advice. Use it at your own risk and always perform your own research and due diligence before making any investment decisions.
+lengthMA: The length of the moving average used to calculate the Impulse MACD indicator.
+lengthSignal: The length of the signal line used to smooth the Impulse MACD indicator.
+The strategy generates entry signals when the Impulse MACD indicator crosses a certain threshold and exit signals when it crosses back below that threshold.
 
-If you have any questions or suggestions for improvement, feel free to open an issue or a pull request in this repository. Thanks for your interest!
+Usage
+To use the strategy, simply copy and paste the code into the Pine Editor in TradingView. You can then backtest the strategy on historical data and adjust the parameters to optimize performance.
+
+Disclaimer
+This strategy is for educational purposes only and should not be used for live trading without proper testing and risk management.
